@@ -2,3 +2,45 @@
     width: 100%;
 }
 
+.icon {
+    display: flex;
+    justify-content: text-center;
+    justify-content: space-evenly;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: text-center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+#gridgallery {
+    display:grid;
+    grid-template: 450px / auto auto;
+}
+.strawberry {
+    width: 450px;
+    float: left;
+}
+
+.square-text {
+    background-color: #D3E2AF;
+    padding: 30px;
+}
+
+#gridgallery2 {
+    display:grid;
+    grid-template: 450px / auto auto;
+}
+.dalgona {
+    width: 450px;
+    float: right;
+}
+
+.square-texttwo {
+    background-color: #E9DBC4 ;
+    padding: 30px;
+}
+
